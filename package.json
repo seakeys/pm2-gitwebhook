@@ -1,0 +1,25 @@
+{
+  "name": "pm2-gitwebhook",
+  "version": "2.0.0",
+  "description": "pm2-gitwebhook",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seakeys/pm2-gitwebhook.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seakeys/pm2-gitwebhook/issues"
+  },
+  "homepage": "https://github.com/seakeys/pm2-gitwebhook#readme",
+  "dependencies": {
+    "async": "2.1.1",
+    "ipaddr.js": "1.2.0",
+    "pm2": "5.2.0",
+    "pmx": "1.6.7",
+    "vizion": "0.2.13"
+  }
+}
