@@ -26,7 +26,7 @@ var Worker = function (opts) {
 
   this.opts = opts;
   this.port = this.opts.port || 8888;
-  this.apps = opts.apps;
+  this.apps = opts.apps || {};
 
   if (typeof (this.apps) !== 'object') {
     this.apps = JSON.parse(this.apps);
